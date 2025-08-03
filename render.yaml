@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-app-name
+    name: pdf-chatbot
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
