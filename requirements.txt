@@ -1,0 +1,8 @@
+gradio==4.21.0
+langchain
+langchain-community
+sentence-transformers
+transformers
+torch
+faiss-cpu
+PyPDF2
