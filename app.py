@@ -210,3 +210,5 @@ with gr.Blocks(css=custom_css) as demo:
     chatbot.select(fn=handle_chat_click, inputs=[chatbot], outputs=[question_input])
 
 demo.launch(share=True)
+gr.Interface(...).launch(server_name="0.0.0.0", server_port=10000)
+
