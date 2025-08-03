@@ -212,4 +212,11 @@ with gr.Blocks(css=custom_css) as demo:
 demo.launch(server_name="0.0.0.0", server_port=10000)
 
 gr.Interface(...).launch(server_name="0.0.0.0", server_port=10000)
+import os
+
+demo.launch(
+    server_name="0.0.0.0",
+    server_port=int(os.environ.get("PORT", 7860))
+)
+
 
